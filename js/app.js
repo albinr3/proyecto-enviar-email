@@ -20,7 +20,7 @@ function loadEventListeners() {
     message.addEventListener("blur", validateForm);
 
     //submit button
-    sendBtn.addEventListener("click", sendEmail);
+    form.addEventListener("submit", sendEmail);
 
     //reset form
     resetBtn.addEventListener("click", resetFields);
